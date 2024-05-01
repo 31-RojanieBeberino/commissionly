@@ -1,0 +1,242 @@
+@media screen and (max-width:1024px){
+    .home-icpms-content{
+        flex-direction: column-reverse;
+    }
+
+    .home-icpms-content div{
+        width: 100%;
+    }
+
+    .icpms-image{
+        display: flex;
+        justify-content: center!important;
+
+    }
+
+    .icpms-image img {
+        width:70%;
+    }
+
+    .new-Features-img img{
+        height: 230px;
+    }
+
+    .new-Features-content h2{
+        font-size: 25px;
+    }
+
+    .home-sscscfyi-content h2{
+        font-size: 35px;
+    }
+
+    .sscscfyi-content-sec h3{
+        font-size: 25px;
+    }
+
+    .sscscfyi-line img{
+        width: 100px!important;
+        height: 6px!important;
+    }
+
+    .test-it-content-sec h2{
+        font-size: 23px;
+    }
+
+    .test-it-content-sec{
+        gap:30px;
+    }
+
+    .why-comm-main h2{
+        font-size: 35px;
+    }
+
+    .why-comm-content-sec h3{
+        font-size: 30px;
+    }
+
+    .our-ratings-reviews{
+        flex-wrap: wrap;
+    }
+
+    .review-card{
+        width: 46%;
+        flex: none;
+    }
+
+
+
+
+
+    .res-com-inner-sec h2{
+        font-size: 40px;
+    }
+
+    .feat-card{
+        width: 50%;
+    }
+
+    .new-busi-section h3{
+        font-size: 40px;
+        line-height: 1.2em;
+    }
+
+    .new-busi-section p{
+        font-size: 30px;
+    }
+
+    .home-sscscfyi-content{
+        gap: 50px;
+    }
+
+    .sscscfyi-content-main{
+        flex-direction: column;
+    }
+
+    .sscscfyi-content-main.top-image{
+        flex-direction: column-reverse;
+    }
+
+    .comm-plans-inner-sec h2{
+        font-size: 40px;
+    }
+
+    .comm-plans-inner-sec img{
+        width: 100%;
+    }
+
+    .agent-splits-inner-sec{
+        flex-direction: column;
+    }
+
+
+
+
+    .pricing-feat-inner-sec{
+        gap:30px;
+    }
+
+    .pricing-feat-card img{
+        height: 200px;
+    }
+
+    .pricing-feat-card{
+        padding: 30px;
+    }
+
+    .pricing-feat-card h3{
+        font-size: 25px;
+        line-height: 1.2em;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:500px){
+    .icpms-content-sec h2{
+        font-size: 25px;
+    }
+
+    .new-Features-content h2{
+        font-size: 20px;
+    }
+
+    .new-Features-img{
+        flex-wrap: wrap;
+        gap:10px;
+    }
+
+    .new-Features-img img{
+        width:45%;
+        height: 180px;
+    }
+
+    .home-sscscfyi-content h2{
+        width:100%;
+        font-size:25px;
+    }
+
+    .sscscfyi-content-main{
+        flex-direction: column;
+    }
+
+    .sscscfyi-content-main.top-image{
+        flex-direction: column-reverse;
+    }
+
+    .test-it-content{
+        flex-direction: column;
+        padding:20px 0px 0px;
+    }
+
+    .test-it-content-sec, .test-it-img{
+        width:100%!important;
+    }
+
+    .why-comm-main h2{
+        width:100%;
+        font-size: 25px;
+    }
+
+    .why-comm-content{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .why-comm-content-sec h3{
+        font-size: 20px;
+    }
+
+    .our-ratings-main h2{
+        font-size: 35px;
+    }
+
+    .review-card{
+        width: 100%;
+    }
+
+    .review-content{
+        padding-top: 15px;
+    }
+
+
+
+
+    .feat-card{
+        width: 100%;
+    }
+
+    .new-busi-section h3{
+        font-size: 30px;
+    }
+
+    .new-busi-section p{
+        font-size: 20px;
+    }
+
+    .sscscfyi-line h4{
+        font-size: 25px;
+    }
+
+    .comm-plans-inner-sec h2{
+        font-size: 35px;
+    }
+
+    .comm-plans-inner-sec h5{
+        font-size: 18px;
+    }
+
+    .mapping-card{
+        padding:30px;
+    }
+
+
+
+    .pricing-feat-card{
+        width: 100%;
+        padding:20px;
+    }
+
+    
+}
