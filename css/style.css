@@ -69,12 +69,12 @@
 
   .bar-paragraph{
     width:100%;
-    padding:15px;
+    padding:5px;
     background-color: #2D2D2D;
   }
 
   .bar-paragraph h3{
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
     color:#fff;
@@ -630,6 +630,10 @@
 .review-content p {
    font-size: 14px;
    font-weight: 400;
+}
+
+.res-com-inner-sec video{
+    width: 100%;
 }
 
 

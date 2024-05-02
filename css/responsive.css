@@ -146,7 +146,7 @@
         position: fixed;
         padding:50px 20px;
         background-color: #fff;
-        top: 200px;
+        top: 185px;
         transform: translateX(100%);
         left: 0px;
         flex-direction: column;
@@ -205,6 +205,14 @@
         padding:0px!important;
         width: 100%;
         justify-content: center;
+    }
+
+    .bar-paragraph{
+        padding: 5px 20px;
+    }
+
+    .bar-paragraph h3{
+        font-size: 16px;
     }
 
 }
@@ -330,7 +338,7 @@
     }
 
     .menu-list-main{
-        top:225px;
+        top:180px;
     }
 
 
@@ -355,6 +363,10 @@
 
     .bot-footer-sec p{
         text-align: center;
+    }
+
+    .bar-icons{
+        padding:10px 20px;
     }
     
 }
