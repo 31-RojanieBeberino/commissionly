@@ -1,38 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
-    </style>
-    <title>Commissionly</title>
+<?php 
+/***
+Template Name: New Home Page
+***/
+?>
+<?php get_header();?>
+<?php while (have_posts()) : the_post(); ?>
 
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
-    <style>
-
-
-
-.why-comm-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.why-comm-content-sec {
-    flex: 1;
-}
-
-.why-comm-img img {
+    .carousel-container {
+    width: 100%;
     max-width: 100%;
-    height: auto;
-}
-.carousel-container {
-    width: 80%;
-    max-width: 800px;
     overflow: hidden;
     position: relative;
 }
@@ -67,11 +46,12 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    gap:5px;
 }
 
 .carousel-pagination .dot {
-    height: 10px;
-    width: 10px;
+    height: 15px;
+    width: 15px;
     margin: 0 5px;
     background-color: #bbb;
     border-radius: 50%;
@@ -80,72 +60,21 @@
 }
 
 .carousel-pagination .dot.active {
-    background-color: #717171;
+    background-color: #01A7E1;
 }
-
-.carousel-nav {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-}
-
-.carousel-nav .prev, .carousel-nav .next {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-}
-    </style>
-</head>
-<body>
+</style>
 
 
-    <navbar class="navbar-header">
-        <div class="top-bar">
-            <div class="bar-icons">
-                <p>Icons</p>
-            </div>
-            <div class="bar-paragraph">
-                <h3>NEW FEATURE RELEASES: Processor Import Templates, Easy Split Management, Realtime Residual Calculations, Missing Residual Payments</h3>
-            </div>
-        </div>
-        <section class="main-navi-bar">
-            <div class="navbar-brand">
-                <img src="images/Logomain.png">
-            </div>
-            <nav>
-                <div class="burger-toggle mobile">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                </div>
-                <ul class="menu-list-main">
-                    <li><a href="/"><img src="/images/home-img-rbg.png"></a></li>
-                    <li><a href="/iso-commission-tracking.html">Features</a></li>
-                    <li><a href="/new-pricing-page.html">Pricing</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
-                    <a href="#" class="log-btn mobile">Login</a>
-                </ul>
-            </nav>
-            <div class="nav-btn desktop">
-                <a href="#" class="log-btn">Login</a>
-            </div>
-        </section>
-    </navbar>
 
-    <section class="main-section-new home-icpms-section">
+<section class="home-icpms-section">
         <div class="inner-main-section-new home-icpms-inner-sec">
             <div class="home-icpms-content">
                 <div class="icpms-image">
-                    <img src="images/bannerImg.png">
+                    <img src="https://www.commissionly.io/wp-content/uploads/2024/04/bannerImg.png">
                 </div>
                 <div class="icpms-content-sec">
                     <h2>Commission Software for the Payments Industry</h2>
-                    <img src="images/line-img.png">
+                    <img src="https://www.commissionly.io/wp-content/uploads/2024/04/line-img.png">
                     <p>Fully automated payments industry commission software that saves you time and money, eliminates errors and improves your productivity.</p>
                     <a href="https://www.commissionly.io/commission-software-demo/" class="request-btn">Request a demo</a>
                 </div>
@@ -158,12 +87,12 @@
     <section class="main-section-new new-Features-section">
         <div class="inner-main-section-new new-Features-inner-sec">
             <div class="new-Features-content">
-                <h2>NEW FEATURE RELEASES: Processor Import Templates, Easy  Split Management, Realtime Residual Calculations, Missing Residual Payments </h2>
+                <h2>NEW FEATURE RELEASES: Carrier Import Templates, Easy Split Management, Realtime Residual Calculations, Missing Payments Report</h2>
                 <div class="new-Features-img">
-                    <img src="images/springOne.png">
-                    <img src="images/springtwo.png">
-                    <img src="images/springThree.png">
-                    <img src="images/users-love-us.png">
+                    <img src="https://www.commissionly.io/wp-content/uploads/2024/04/springOne.png">
+                    <img src="https://www.commissionly.io/wp-content/uploads/2024/04/springtwo.png">
+                    <img src="https://www.commissionly.io/wp-content/uploads/2024/04/springThree.png">
+                    <img src="https://www.commissionly.io/wp-content/uploads/2024/04/users-love-us.png">
                 </div>
             </div>
         </div>
@@ -177,62 +106,62 @@
                 <h2>Solving Sales Commission Software Challenges For Your Industry</h2>
                 <div class="sscscfyi-content-main">
                     <div class="sscscfyi-image">
-                        <img src="images/import-img-section.png">
+                        <img src="https://www.commissionly.io/wp-content/uploads/2024/04/import-img-section.png">
                     </div>
                     <div class="sscscfyi-content-sec sscscfyi-line">
                         <h3>Import Historical Data</h3>
-                        <img src="images/line-img.png">
+                        <img src="https://www.commissionly.io/wp-content/uploads/2024/04/line-img.png">
                         <p>Import all historical carrier residual reports and access to commission history via your dashboard or reports.  Simplified data importing with our Residual Import Templates.</p>
                     </div>
                 </div>
                 <div class="sscscfyi-content-main top-image">
                     <div class="sscscfyi-content-sec sscscfyi-line">
                         <h3>Agent MID Mapping</h3>
-                        <img src="images/line-img.png">
+                        <img src="https://www.commissionly.io/wp-content/uploads/2024/04/line-img.png">
                         <p>Import all historical carrier residual reports and access to commission history via your dashboard or reports.  Simplified data importing with our Residual Import Templates.</p>
                     </div>
                     <div class="sscscfyi-image">
-                        <img src="images/Agent-mid-sec.png">
+                        <img src="https://www.commissionly.io/wp-content/uploads/2024/04/Agent-mid-sec.png">
                     </div>
                 </div>
                 <div class="sscscfyi-content-main">
                     <div class="sscscfyi-image">
-                        <img src="images/residual-report-sec.png">
+                        <img src="https://www.commissionly.io/wp-content/uploads/2024/04/residual-report-sec.png">
                     </div>
                     <div class="sscscfyi-content-sec sscscfyi-line">
                         <h3>Residual Reports & Dashboards</h3>
-                        <img src="images/line-img.png">
+                        <img src="https://www.commissionly.io/wp-content/uploads/2024/04/line-img.png">
                         <p>Full access to preset reports and dashboards, offering insights and information at a glance, optimizing decision-making and performance monitoring.</p>
                     </div>
                 </div>
                 <div class="sscscfyi-content-main top-image">
                     <div class="sscscfyi-content-sec sscscfyi-line">
                         <h3>Automated Split Calculations</h3>
-                        <img src="images/line-img.png">
+                        <img src="https://www.commissionly.io/wp-content/uploads/2024/04/line-img.png">
                         <p>Automated agent split calculations ensure accuracy, save time, and eliminate manual errors, facilitating fair and transparent commission distribution efficiently.</p>
                     </div>
                     <div class="sscscfyi-image">
-                        <img src="images/automated-sec.png">
+                        <img src="https://www.commissionly.io/wp-content/uploads/2024/04/automated-sec.png">
                     </div>
                 </div>
                 <div class="sscscfyi-content-main">
                     <div class="sscscfyi-image">
-                        <img src="images/agent-acc-img.png">
+                        <img src="https://www.commissionly.io/wp-content/uploads/2024/04/agent-acc-img.png">
                     </div>
                     <div class="sscscfyi-content-sec sscscfyi-line">
                         <h3>Agent Access Options</h3>
-                        <img src="images/line-img.png">
+                        <img src="https://www.commissionly.io/wp-content/uploads/2024/04/line-img.png">
                         <p>Allowing agents to log in and access their commission and reports empowers them with transparency and instant feedback on their performance.</p>
                     </div>
                 </div>
-                <div class="sscscfyi-content-main top-image">
+				 <div class="sscscfyi-content-main top-image">
                     <div class="sscscfyi-content-sec sscscfyi-line">
                         <h3>Missing Payments Report</h3>
-                        <img src="images/line-img.png">
+                        <img src="https://www.commissionly.io/wp-content/uploads/2024/04/line-img.png">
                         <p>Ensure financial accuracy with our cutting-edge report that swiftly identifies missing payments after imports, safeguarding your revenue and enhancing operational efficiency.</p>
                     </div>
                     <div class="sscscfyi-image">
-                        <img src="images/newimg.png">
+                        <img src="https://www.commissionly.io/wp-content/uploads/2024/05/newimg.png">
                     </div>
                 </div>
             </div>
@@ -245,37 +174,16 @@
         <div class="inner-main-section-new test-it-inner-sec">
             <div class="test-it-content">
                 <div class="test-it-content-sec">
-                    <h2>Test It For Yourself - Set Up Your First Commission In 5 Minutes</h2>
+                    <h2>Running your residuals has never been easier! Book a demo now!</h2>
                     <a href="https://www.commissionly.io/commission-software-demo/">Request a demo</a>
                 </div>
                 <div class="test-it-img">
-                    <img src="images/test-it-sec.png">
+                    <img src="https://www.commissionly.io/wp-content/uploads/2024/04/test-it-sec.png">
                 </div>
             </div>
         </div>
     </section>
 
-
-
-
-    <section class="main-section-new why-comm-section">
-        <div class="inner-main-section-new why-comm-inner-sec">
-            <div class="why-comm-main">
-                <h2>Why Commissionly Sales Commission Management Software?</h2>
-                <div class="why-comm-content">
-                    <div class="why-comm-content-sec">
-                        <h3>Competitive Pricing</h3>
-                        <img src="images/line-img.png">
-                        <p>Our competitive pricing stands as the best in the market, designed to grow with you, ensuring affordability and scalability to support your expanding business needs seamlessly.</p>
-                        <a href="https://www.commissionly.io/commission-software-demo/" class="request-btn">Request a demo</a>
-                    </div>
-                    <div class="why-comm-img">
-                        <img src="images/compe-pricing-image.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 
@@ -285,7 +193,7 @@
                 <h2>Why Commissionly Sales Commission Management Software?</h2>
                 <div class="carousel-container">
                     <div class="carousel">
-                        <div class="carousel-item">
+                        <div class="carousel-item"> <!-- Repeat content for other items -->
                             <div class="why-comm-content">
                                 <div class="why-comm-content-sec">
                                     <h3>Competitive Pricing</h3>
@@ -298,51 +206,35 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item"> <!-- Repeat content for other items -->
                             <div class="why-comm-content">
                                 <div class="why-comm-content-sec">
-                                    <h3>Competitive Pricing</h3>
+                                    <h3>World Class Support</h3>
                                     <img src="https://www.commissionly.io/wp-content/uploads/2024/04/line-img.png">
-                                    <p>Our competitive pricing stands as the best in the market, designed to grow with you, ensuring affordability and scalability to support your expanding business needs seamlessly.</p>
+                                    <p>Is about after sales support and ongoing management.</p>
                                     <a href="https://www.commissionly.io/commission-software-demo/" class="request-btn">Request a demo</a>
                                 </div>
                                 <div class="why-comm-img">
-                                    <img src="https://www.commissionly.io/wp-content/uploads/2024/04/compe-pricing-image.png">
+                                    <img src="https://www.commissionly.io/wp-content/uploads/2024/05/world-class-support.png">
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item"> <!-- Repeat content for other items -->
                             <div class="why-comm-content">
                                 <div class="why-comm-content-sec">
-                                    <h3>Competitive Pricing</h3>
+                                    <h3>Industry Expertise</h3>
                                     <img src="https://www.commissionly.io/wp-content/uploads/2024/04/line-img.png">
-                                    <p>Our competitive pricing stands as the best in the market, designed to grow with you, ensuring affordability and scalability to support your expanding business needs seamlessly.</p>
+                                    <p>Is about getting setup and understanding your needs.</p>
                                     <a href="https://www.commissionly.io/commission-software-demo/" class="request-btn">Request a demo</a>
                                 </div>
                                 <div class="why-comm-img">
-                                    <img src="https://www.commissionly.io/wp-content/uploads/2024/04/compe-pricing-image.png">
+                                    <img src="https://www.commissionly.io/wp-content/uploads/2024/05/Industry-expertise.png">
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="why-comm-content">
-                                <div class="why-comm-content-sec">
-                                    <h3>Competitive Pricing</h3>
-                                    <img src="https://www.commissionly.io/wp-content/uploads/2024/04/line-img.png">
-                                    <p>Our competitive pricing stands as the best in the market, designed to grow with you, ensuring affordability and scalability to support your expanding business needs seamlessly.</p>
-                                    <a href="https://www.commissionly.io/commission-software-demo/" class="request-btn">Request a demo</a>
-                                </div>
-                                <div class="why-comm-img">
-                                    <img src="https://www.commissionly.io/wp-content/uploads/2024/04/compe-pricing-image.png">
-                                </div>
-                            </div>
-                        </div>
+                        <!-- Repeat above block two more times -->
                     </div>
                     <div class="carousel-pagination"></div>
-                    <div class="carousel-nav">
-                        <span class="prev">&lt;</span>
-                        <span class="next">&gt;</span>
-                    </div>
                 </div>
             </div>
         </div>
@@ -352,16 +244,16 @@
 
     <section class="main-section-new our-ratings-section">
         <div class="inner-main-section-new our-ratings-inner-sec">
-            <img class="line-bot-img" src="images/line-img.png">
+            <img class="line-bot-img" src="https://www.commissionly.io/wp-content/uploads/2024/04/line-img.png">
             <div class="our-ratings-main">
                 <h2>Our Ratings And Reviews</h2>
                 <div class="our-ratings-reviews">
                     <div class="review-card">
                         <div class="review-img">
-                            <img src="images/thumb_square_f19d050a4a225ee65ebf1581d3478cc9.png">
+                            <img src="https://www.commissionly.io/wp-content/uploads/2024/04/thumb_square_f19d050a4a225ee65ebf1581d3478cc9.png">
                         </div>
                         <div class="review-content">
-                            <img src="images/noun-rating-star-2083662 (1).png">
+                            <img src="https://www.commissionly.io/wp-content/uploads/2024/04/noun-rating-star-2083662-1.png">
                             <div class="review-info">
                                 <h4>Megan A.</h4>
                                 <span>Practice Manager</span>
@@ -371,10 +263,10 @@
                     </div>
                     <div class="review-card">
                         <div class="review-img">
-                            <img src="images/thumb_square_5e293614c65b76695dd1897b431781c2.png">
+                            <img src="https://www.commissionly.io/wp-content/uploads/2024/04/thumb_square_5e293614c65b76695dd1897b431781c2.png">
                         </div>
                         <div class="review-content">
-                            <img src="images/noun-rating-star-2083662 (1).png">
+                            <img src="https://www.commissionly.io/wp-content/uploads/2024/04/noun-rating-star-2083662-1.png">
                             <div class="review-info">
                                 <h4>Troy W.</h4>
                                 <span>Small-Business</span>
@@ -384,10 +276,10 @@
                     </div>
                     <div class="review-card">
                         <div class="review-img">
-                            <img src="images/thumb_square_5998092606ae9f7ba6ad0857a160d54b.png">
+                            <img src="https://www.commissionly.io/wp-content/uploads/2024/04/thumb_square_5998092606ae9f7ba6ad0857a160d54b.png">
                         </div>
                         <div class="review-content">
-                            <img src="images/noun-rating-star-2083662 (1).png">
+                            <img src="https://www.commissionly.io/wp-content/uploads/2024/04/noun-rating-star-2083662-1.png">
                             <div class="review-info">
                                 <h4>Keanan W.</h4>
                                 <span>Mid-Market</span>
@@ -402,44 +294,38 @@
     
 
 
-    <footer class="footer-main-section">
-        <section class="inner-footer-sec">
-            <div class="top-footer-sec">
-                <div class="footer-brand">
-                    <img src="images/footer-logo.png">
-                </div>
-                <div class="footer-list-link">
-                    <h4>Quick Links</h4>
-                    <div class="list">
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="/contact.html">Contact Us</a></li>
-                            <li><a href="/new-pricing-page.html">Pricing</a></li>
-                            <li><a href="#">Blog</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Terms and Conditions</a></li>
-                            <li><a href="#">Acceptable Use Policy</a></li>
-                            <li><a href="#">Security Center</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer-icons">
-                    <h4>Follow Us</h4>
-                    <img src="images/Group 1886.png">
-                </div>
-            </div>
-            <div class="bot-footer-sec">
-                <img src="images/line-img.png">
-                <p>2024 Copyright All rights reserved</p>
-            </div>
-        </section>
-    </footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
 
-    
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/js.js"></script>
 
-    
-</body>
-</html>
+    let currentIndex = 0;
+    const items = $('.carousel-item');
+    const itemCount = items.length;
+    const pagination = $('.carousel-pagination');
+
+    for (let i = 0; i < itemCount; i++) {
+        pagination.append('<span class="dot"></span>');
+    }
+
+    const dots = $('.dot');
+    dots.eq(currentIndex).addClass('active');
+
+    function goToSlide(index) {
+        currentIndex = index;
+        const newTransform = -100 * index;
+        $('.carousel').css('transform', `translateX(${newTransform}%)`);
+        dots.removeClass('active');
+        dots.eq(index).addClass('active');
+    }
+
+    dots.on('click', function() {
+        const index = $(this).index();
+        goToSlide(index);
+    });
+});
+</script>
+
+
+<?php endwhile;?>
+<?php get_footer(); ?>	

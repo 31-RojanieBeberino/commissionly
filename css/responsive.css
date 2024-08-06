@@ -215,6 +215,26 @@
         font-size: 16px;
     }
 
+    .section-image{
+        display: flex;
+        align-items: center;
+    }
+
+    .keybensec, .section-image{
+        width: 50%;
+    }
+
+    .partner-sec h4{
+        font-size: 45px;
+    }
+
+
+    .partner-sec p{
+        font-size: 20px;
+    }
+
+    
+
 }
 
 
@@ -367,6 +387,40 @@
 
     .bar-icons{
         padding:10px 20px;
+    }
+
+    .keybensec{
+        width: 100%;
+        gap: 20px;
+        margin: 20px 0px;
+    }
+
+    .keyben-item{
+        width: 100%;
+    }
+
+
+    .partner-sec h4{
+        font-size: 30px;
+    }
+
+    .partner-sec p{
+        width: 100%;
+    }
+
+
+    .how-it-works-col{
+        flex-direction: column;
+    }
+
+
+    .keybensec, .section-image{
+        width:100%;
+    }
+
+
+    .keybensec h2{
+        font-size: 40px;
     }
     
 }
